@@ -1,12 +1,34 @@
+
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mercatus</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Mercatus</h1>
+        <nav>
+            <a href="#">Men</a>
+            <a href="#">Women</a>
+            <a href="#">Cart</a>
+        </nav>
+    </header>
+    <main>
+        <section class="product-listing">
+            <h2>Men's Clothing</h2>
+            <div class="product"><img src="images/men1.jpg" alt="Men Product 1"><p>Men's T-Shirt - $20</p></div>
+            <div class="product"><img src="images/men2.jpg" alt="Men Product 2"><p>Men's Jacket - $45</p></div>
+
+            <h2>Women's Clothing</h2>
+            <div class="product"><img src="images/women1.jpg" alt="Women Product 1"><p>Women's Dress - $35</p></div>
+            <div class="product"><img src="images/women2.jpg" alt="Women Product 2"><p>Women's Blouse - $25</p></div>
+        </section>
+    </main>
+    <footer>
+        <p>Checkout and payments powered by Paysera.</p>
+    </footer>
+</body>
 </html>
